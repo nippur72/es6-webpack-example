@@ -7,7 +7,7 @@ module.exports = {
         loaders:[
             {
                 test: /\.rt/,
-                loader: "react-templates-loader?modules=commonjs"
+                loaders: [/*__dirname + "/echo-loader" ,*/ "babel-loader?presets[]=es2015", "react-templates-loader?modules=es6" ]
             }
         ],
 

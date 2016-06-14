@@ -20411,12 +20411,30 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var React = __webpack_require__(162);
-	var _ = __webpack_require__(170);
-	var Modal = __webpack_require__(172).default;
-	module.exports = function () {
-	    return React.createElement('div', {}, '\r\n This is main\r\n ', React.createElement('hr', {}), React.createElement(Modal, {}), React.createElement('hr', {}));
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	exports.default = function () {
+	    return React.createElement('div', {}, '\r\n This is main\r\n ', React.createElement('hr', {}), React.createElement(_Modal2.default, {}), React.createElement('hr', {}));
 	};
+
+	var _react = __webpack_require__(162);
+
+	var React = _interopRequireWildcard(_react);
+
+	var _lodash = __webpack_require__(170);
+
+	var _ = _interopRequireWildcard(_lodash);
+
+	var _Modal = __webpack_require__(172);
+
+	var _Modal2 = _interopRequireDefault(_Modal);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 /***/ },
 /* 170 */
@@ -36886,20 +36904,31 @@
 	exports.default = Modal;
 
 
-	console.log("1");
 	Modal.prototype.render = _Modal2.default;
-	console.log("2");
 
 /***/ },
 /* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var React = __webpack_require__(162);
-	var _ = __webpack_require__(170);
-	module.exports = function () {
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	exports.default = function () {
 	    return React.createElement('div', { 'className': 'modal' }, React.createElement('div', { 'className': 'wrap' }, '\r\n        MODAL\r\n    '));
 	};
+
+	var _react = __webpack_require__(162);
+
+	var React = _interopRequireWildcard(_react);
+
+	var _lodash = __webpack_require__(170);
+
+	var _ = _interopRequireWildcard(_lodash);
+
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 /***/ }
 /******/ ])));
