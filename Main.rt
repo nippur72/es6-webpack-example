@@ -1,0 +1,7 @@
+<rt-import name="default" as="Modal" from="./Modal" />
+<div>
+ This is main
+ <hr />
+ <Modal></Modal>
+ <hr />
+</div>
